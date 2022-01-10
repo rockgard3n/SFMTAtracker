@@ -4,7 +4,7 @@ Users are prompted to select a SFMTA bus route. Once they have selected the rout
 Note: SFMTA only allows 60 hits per hour, so technically 15 seconds is too short an update interval. However, I am assuming that users will not have the page up for an extended period of time and would prefer a faster update time. 
 
 ## How to run
-Feel free to run the program on my github site: ***
+Feel free to run the program [here](https://rockgard3n.github.io/SFMTAtracker/)
 
 You can also update/edit the code by cloning my repository. You will need the index.html, SFmapmarker.js, and styles.css for the code to run properly. Additionally, please replace my mapbox API key with your own. 
 
