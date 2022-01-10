@@ -195,7 +195,7 @@ async function collect(){
 // this async funciton pulls the data from the SFMTA API, and cuts out just the part we need which is the bus details
 async function getBusLocations(){
     console.log("getBusLocations() called");
-    const url = "http://api.511.org/transit/VehicleMonitoring?api_key=f0e7e4f5-928b-4378-abdd-2f04c0c4d0ae&agency=SF"
+    const url = "https://api.511.org/transit/VehicleMonitoring?api_key=f0e7e4f5-928b-4378-abdd-2f04c0c4d0ae&agency=SF"
     const response = await fetch(url);
     const json = await response.json();
     console.log(json.Siri.ServiceDelivery.VehicleMonitoringDelivery.VehicleActivity)
