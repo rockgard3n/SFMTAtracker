@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+.navbar > li > .dropdown-menu { background-color: #555555; }
+
+.navbar > li > .dropdown-menu a{   color: #fff;  }
+.navbar > li > .dropdown-menu a:hover{   color: #555555;  }
+
+
+.nav-link {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: rgb(172, 172, 172);
+}
+.nav-link:focus {
+    color: rgb(172, 172, 172);
+}
+
+.nav-link .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.bg-medium {
+    background-color: #d4d4d4;
+}
+
+.footer {
+    color: #fff;
+}
+
+.album1 {
+  height: 100%;
+}
+  

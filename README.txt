@@ -1,0 +1,4 @@
+Title of the project: Real Time Bus Tracker
+Description of the project: This project shows the live and updating location of each bus on the inbound route 1 SFMTA route in san francisco. The Code was also designed so that with a little more development effort users could see outbound busses and any bus on any SFMTA route. You either just have to change the variables manually or add text entry fields to the site. 
+How to Run: set up the file on a localhost and then just load the page, everything else will load by itself.
+Roadmap of future improvements: I would like to add fields for users to select which bus route they would like to see.
